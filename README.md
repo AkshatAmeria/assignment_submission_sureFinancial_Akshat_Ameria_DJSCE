@@ -2,7 +2,7 @@
 
 
 # Deployed Backend API's on render:
-https://assignment-submission-surefinancial.onrender.com/api/v1/single
+https://assignment-submission-surefinancial.onrender.com/api/v1/single , 
 https://assignment-submission-surefinancial.onrender.com/api/v1/multiple
 
 # Deployed application on netlify:
