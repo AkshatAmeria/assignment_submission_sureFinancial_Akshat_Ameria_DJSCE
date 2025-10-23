@@ -10,6 +10,7 @@ const parseHDFCAltStatement = require('../services/banks/hdfcAltParser');
 const parseAmexStatement = require('../services/banks/amexParser');
 const parseKotakStatement = require('../services/banks/kotakParser');
 const parseSBIStatement = require('../services/banks/sbiParser');
+require('dotenv').config()
 
 const genaiModule = require('@google/genai');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
@@ -43,7 +44,7 @@ async function safeParsePdf(buffer, retries = 2) {
 }
 
 
-const apiKey =  "AIzaSyA27slhT01TG7rP031LZEe1qYS20ArKBzI";
+const apiKey =  process.env.apiKey ;
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const generationConfig = {
