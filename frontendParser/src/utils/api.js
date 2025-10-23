@@ -9,8 +9,8 @@ export async function uploadPDFs(mode, files) {
 
   const endpoint =
     mode === "single"
-      ? "http://localhost:5000/api/v1/single"
-      : "http://localhost:5000/api/v1/multiple";
+      ? "https://assignment-submission-surefinancial.onrender.com/api/v1/single"
+      : "https://assignment-submission-surefinancial.onrender.com/api/v1/multiple";
 
   const res = await fetch(endpoint, {
     method: "POST",

@@ -120,6 +120,7 @@ export default function UploadPage() {
 
   return (
     <div className="max-w-6xl mx-auto mt-10 p-6">
+    <h1 className="text-3xl font-bold ml-[300px] mb-[30px] ">Credit Card Bill Statement Parser</h1>
       <UploadArea mode={mode} setMode={setMode} onFilesParsed={handleParsedResults} />
 
       {parsedResults.length === 0 ? (
