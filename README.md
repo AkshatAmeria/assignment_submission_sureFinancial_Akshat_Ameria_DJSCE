@@ -1,5 +1,6 @@
 # Credit Card Statement Parser & Insights Tool
 
+# Test the application with the pdf uploaded on github in uploaded folder
 
 # Deployed Backend API's on render:
 https://assignment-submission-surefinancial.onrender.com/api/v1/single , 
